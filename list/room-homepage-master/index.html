@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="src/images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Room homepage</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="stylesheet" href="./src/style/index.css">
+    <style>
+        .attribution { font-size: 11px; text-align: center; }
+        .attribution a { color: hsl(228, 45%, 44%); }
+    </style>
+
+    <script src="./src/data/data.json"></script>
+    <script src="./src/scripts/script.js" defer>
+    </script>
+</head>
+<body>
+<section class="section">
+<!--    page 1-->
+    <article class="article article__part1">
+        <div class="article__wrap">
+            <header class="header">
+                <figure class="header__logo">
+                    <a href="./index.html">
+                        <img src="./src/images/logo.svg" alt="LOGO">
+                    </a>
+                </figure>
+                <svg class="nav__mobile" width="20" height="14" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20 12v2H0v-2h20zm0-6v2H0V6h20zm0-6v2H0V0h20z" fill="#FFF" fill-rule="evenodd"/>
+                </svg>
+                <nav class="nav__gnb nav__gnb--none">
+                    <ul>
+                        <li class="nav__list">
+                            <a href="#">
+                            <span>
+                                Home
+                            </span>
+                            </a>
+                        </li>
+                        <li class="nav__list">
+                            <a href="#">
+                            <span>
+                                Shop
+                            </span>
+                            </a>
+                        </li>
+                        <li class="nav__list">
+                            <a href="#">
+                            <span>
+                                About
+                            </span>
+                            </a>
+                        </li>
+                        <li class="nav__list">
+                            <a href="#">
+                            <span>
+                                Contact
+                            </span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+    </article>
+
+<!-- page 2-->
+    <article class="article article__part2">
+        <div class="article__wrap">
+            <header class="header">
+                <h1 class="header__title">
+                    Discover innovative ways to decorate
+                </h1>
+                <p class="header__description">
+                    We provide unmatched quality, comfort, and style for property owners across the country.
+                    Our experts combine form and function in bringing your vision to life. Create a room in your
+                    own style with our collection and make your property a reflection of you and what you love.
+                </p>
+
+                <a href="#" class="header__link">shop now
+<!--                    <img src="./src/images/icon-arrow.svg" alt="arrow">-->
+                    <svg width="40" height="12" xmlns="http://www.w3.org/2000/svg">
+                        <path class="svg__arrow" d="M34.05 0l5.481 5.527h.008v.008L40 6l-.461.465v.063l-.062-.001L34.049 12l-.662-.668 4.765-4.805H0v-1h38.206l-4.82-4.86L34.05 0z" fill="#000" fill-rule="nonzero"/>
+                    </svg>
+                </a>
+
+                <div class="button__container">
+                    <button class="button__prev">
+                        <img src="./src/images/icon-angle-left.svg" alt="Left">
+                    </button>
+                    <button class="button__next">
+                        <img src="./src/images/icon-angle-right.svg" alt="Right">
+                    </button>
+                </div>
+
+            </header>
+        </div>
+    </article>
+
+<!-- Page 3-->
+    <article class="article article__part3">
+        <figure class="article__background">
+            <img src="./src/images/image-about-dark.jpg" alt="">
+        </figure>
+        <section class="section__container">
+            <h3 class="section__title">
+                About our furniture
+            </h3>
+            <p class="section__description">
+                Our multifunctional collection blends design and function to suit your individual taste.
+                Make each room unique, or pick a cohesive theme that best express your interests and what
+                inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+                or anything in between. Product specialists are available to help you create your dream space.
+            </p>
+        </section>
+        <figure class="article__background">
+            <img src="./src/images/image-about-light.jpg" alt="">
+        </figure>
+    </article>
+</section>
+
+</body>
+</html>

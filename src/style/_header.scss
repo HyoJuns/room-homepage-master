@@ -1,0 +1,100 @@
+@use './variables' as let;
+.header
+{
+    overflow: hidden;
+    &__logo
+    {
+        float: left;
+        //display: inline-block;
+        padding : 4em 4em;
+
+        @include let.Tablet
+        {
+            float: none;
+            width: 100%;
+            text-align: center;
+        }
+        @include let.Mobile
+        {
+            float: none;
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    &__title
+    {
+        padding: 12rem 12rem 0 12rem;
+        font-size: 2.6em;
+        color : let.$primary-black;
+
+        @include let.Desktop
+        {
+            padding: 4rem 4rem 0 8rem;
+        }
+        @include let.Tablet
+        {
+            padding: 4rem 4rem 0 8rem;
+        }
+        @include let.Mobile
+        {
+            padding: 4rem 4rem 0 8rem;
+        }
+    }
+
+    &__description
+    {
+        padding: 2rem 12rem 0 12rem;
+        font-size: 1.2rem;
+
+        line-height: 1.5;
+        color : let.$primary-darkGray;
+        @include let.Desktop
+        {
+            padding: 2rem 4rem 0 8rem;
+        }
+        @include let.Tablet
+        {
+            padding: 2rem 4rem 0 8rem;
+        }
+        @include let.Mobile
+        {
+            padding: 2rem 4rem 0 8rem;
+        }
+    }
+
+    &__link
+    {
+        padding: 4rem 12rem 0 12rem;
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+        color : let.$primary-veryDarkGray;
+
+        display: block;
+
+        transition: color .4s ease;
+        &:hover
+        {
+            color : let.$primary-darkGray;
+
+            & .svg__arrow
+            {
+
+               fill: let.$primary-darkGray;
+            }
+        }
+        @include let.Desktop
+        {
+            padding: 4rem 8rem 0 8rem;
+        }
+        @include let.Tablet
+        {
+            padding: 6rem 4rem 0 8rem;
+        }
+        @include let.Mobile
+        {
+            padding: 6rem 4rem 0 8rem;
+        }
+    }
+}

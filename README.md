@@ -29,10 +29,10 @@ Users should be able to:
 ### Screenshot
 
 - Desktop
-  - ![Desktop](./screenshots/desktop.png)
+  - ![Desktop](./screensthots/desktop.png)
 - Mobile
-  - ![Mobile](./screenshots/mobile.png)
-  - ![Mobile_hover](./screenshots/mobile_hover.png)
+  - ![Mobile](./screensthots/mobile.png)
+  - ![Mobile_hover](./screensthots/mobile_hover.png)
 
 ### Links
 
